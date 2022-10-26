@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE689EF6290999C900A537E9 /* HamburgerToBackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689EF5290999C900A537E9 /* HamburgerToBackApp.swift */; };
+		CE689EF8290999C900A537E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689EF7290999C900A537E9 /* ContentView.swift */; };
+		CE689EFA290999CA00A537E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE689EF9290999CA00A537E9 /* Assets.xcassets */; };
+		CE689EFD290999CA00A537E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE689EFC290999CA00A537E9 /* Preview Assets.xcassets */; };
+		CE689F07290999CA00A537E9 /* HamburgerToBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689F06290999CA00A537E9 /* HamburgerToBackTests.swift */; };
+		CE689F11290999CA00A537E9 /* HamburgerToBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689F10290999CA00A537E9 /* HamburgerToBackUITests.swift */; };
+		CE689F13290999CA00A537E9 /* HamburgerToBackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689F12290999CA00A537E9 /* HamburgerToBackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE689F03290999CA00A537E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE689EEA290999C900A537E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE689EF1290999C900A537E9;
+			remoteInfo = HamburgerToBack;
+		};
+		CE689F0D290999CA00A537E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE689EEA290999C900A537E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE689EF1290999C900A537E9;
+			remoteInfo = HamburgerToBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE689EF2290999C900A537E9 /* HamburgerToBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburgerToBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE689EF5290999C900A537E9 /* HamburgerToBackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerToBackApp.swift; sourceTree = "<group>"; };
+		CE689EF7290999C900A537E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE689EF9290999CA00A537E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE689EFC290999CA00A537E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE689F02290999CA00A537E9 /* HamburgerToBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerToBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE689F06290999CA00A537E9 /* HamburgerToBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerToBackTests.swift; sourceTree = "<group>"; };
+		CE689F0C290999CA00A537E9 /* HamburgerToBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerToBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE689F10290999CA00A537E9 /* HamburgerToBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerToBackUITests.swift; sourceTree = "<group>"; };
+		CE689F12290999CA00A537E9 /* HamburgerToBackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerToBackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE689EEF290999C900A537E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689EFF290999CA00A537E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689F09290999CA00A537E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE689EE9290999C900A537E9 = {
+			isa = PBXGroup;
+			children = (
+				CE689EF4290999C900A537E9 /* HamburgerToBack */,
+				CE689F05290999CA00A537E9 /* HamburgerToBackTests */,
+				CE689F0F290999CA00A537E9 /* HamburgerToBackUITests */,
+				CE689EF3290999C900A537E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE689EF3290999C900A537E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE689EF2290999C900A537E9 /* HamburgerToBack.app */,
+				CE689F02290999CA00A537E9 /* HamburgerToBackTests.xctest */,
+				CE689F0C290999CA00A537E9 /* HamburgerToBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE689EF4290999C900A537E9 /* HamburgerToBack */ = {
+			isa = PBXGroup;
+			children = (
+				CE689EF5290999C900A537E9 /* HamburgerToBackApp.swift */,
+				CE689EF7290999C900A537E9 /* ContentView.swift */,
+				CE689EF9290999CA00A537E9 /* Assets.xcassets */,
+				CE689EFB290999CA00A537E9 /* Preview Content */,
+			);
+			path = HamburgerToBack;
+			sourceTree = "<group>";
+		};
+		CE689EFB290999CA00A537E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE689EFC290999CA00A537E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE689F05290999CA00A537E9 /* HamburgerToBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE689F06290999CA00A537E9 /* HamburgerToBackTests.swift */,
+			);
+			path = HamburgerToBackTests;
+			sourceTree = "<group>";
+		};
+		CE689F0F290999CA00A537E9 /* HamburgerToBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE689F10290999CA00A537E9 /* HamburgerToBackUITests.swift */,
+				CE689F12290999CA00A537E9 /* HamburgerToBackUITestsLaunchTests.swift */,
+			);
+			path = HamburgerToBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE689EF1290999C900A537E9 /* HamburgerToBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE689F16290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBack" */;
+			buildPhases = (
+				CE689EEE290999C900A537E9 /* Sources */,
+				CE689EEF290999C900A537E9 /* Frameworks */,
+				CE689EF0290999C900A537E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburgerToBack;
+			productName = HamburgerToBack;
+			productReference = CE689EF2290999C900A537E9 /* HamburgerToBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE689F01290999CA00A537E9 /* HamburgerToBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE689F19290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBackTests" */;
+			buildPhases = (
+				CE689EFE290999CA00A537E9 /* Sources */,
+				CE689EFF290999CA00A537E9 /* Frameworks */,
+				CE689F00290999CA00A537E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE689F04290999CA00A537E9 /* PBXTargetDependency */,
+			);
+			name = HamburgerToBackTests;
+			productName = HamburgerToBackTests;
+			productReference = CE689F02290999CA00A537E9 /* HamburgerToBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE689F0B290999CA00A537E9 /* HamburgerToBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE689F1C290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBackUITests" */;
+			buildPhases = (
+				CE689F08290999CA00A537E9 /* Sources */,
+				CE689F09290999CA00A537E9 /* Frameworks */,
+				CE689F0A290999CA00A537E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE689F0E290999CA00A537E9 /* PBXTargetDependency */,
+			);
+			name = HamburgerToBackUITests;
+			productName = HamburgerToBackUITests;
+			productReference = CE689F0C290999CA00A537E9 /* HamburgerToBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE689EEA290999C900A537E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CE689EF1290999C900A537E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					CE689F01290999CA00A537E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CE689EF1290999C900A537E9;
+					};
+					CE689F0B290999CA00A537E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CE689EF1290999C900A537E9;
+					};
+				};
+			};
+			buildConfigurationList = CE689EED290999C900A537E9 /* Build configuration list for PBXProject "HamburgerToBack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE689EE9290999C900A537E9;
+			productRefGroup = CE689EF3290999C900A537E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE689EF1290999C900A537E9 /* HamburgerToBack */,
+				CE689F01290999CA00A537E9 /* HamburgerToBackTests */,
+				CE689F0B290999CA00A537E9 /* HamburgerToBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE689EF0290999C900A537E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE689EFD290999CA00A537E9 /* Preview Assets.xcassets in Resources */,
+				CE689EFA290999CA00A537E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689F00290999CA00A537E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689F0A290999CA00A537E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE689EEE290999C900A537E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE689EF8290999C900A537E9 /* ContentView.swift in Sources */,
+				CE689EF6290999C900A537E9 /* HamburgerToBackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689EFE290999CA00A537E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE689F07290999CA00A537E9 /* HamburgerToBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE689F08290999CA00A537E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE689F13290999CA00A537E9 /* HamburgerToBackUITestsLaunchTests.swift in Sources */,
+				CE689F11290999CA00A537E9 /* HamburgerToBackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE689F04290999CA00A537E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE689EF1290999C900A537E9 /* HamburgerToBack */;
+			targetProxy = CE689F03290999CA00A537E9 /* PBXContainerItemProxy */;
+		};
+		CE689F0E290999CA00A537E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE689EF1290999C900A537E9 /* HamburgerToBack */;
+			targetProxy = CE689F0D290999CA00A537E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE689F14290999CA00A537E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE689F15290999CA00A537E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE689F17290999CA00A537E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HamburgerToBack/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HA2827L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE689F18290999CA00A537E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HamburgerToBack/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HA2827L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE689F1A290999CA00A537E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447HA2827L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerToBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HamburgerToBack";
+			};
+			name = Debug;
+		};
+		CE689F1B290999CA00A537E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447HA2827L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerToBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HamburgerToBack";
+			};
+			name = Release;
+		};
+		CE689F1D290999CA00A537E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447HA2827L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamburgerToBack;
+			};
+			name = Debug;
+		};
+		CE689F1E290999CA00A537E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447HA2827L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.pro.HamburgerToBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HamburgerToBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE689EED290999C900A537E9 /* Build configuration list for PBXProject "HamburgerToBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE689F14290999CA00A537E9 /* Debug */,
+				CE689F15290999CA00A537E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE689F16290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE689F17290999CA00A537E9 /* Debug */,
+				CE689F18290999CA00A537E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE689F19290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE689F1A290999CA00A537E9 /* Debug */,
+				CE689F1B290999CA00A537E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE689F1C290999CA00A537E9 /* Build configuration list for PBXNativeTarget "HamburgerToBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE689F1D290999CA00A537E9 /* Debug */,
+				CE689F1E290999CA00A537E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE689EEA290999C900A537E9 /* Project object */;
+}
